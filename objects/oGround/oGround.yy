@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sGround",
-    "path":"sprites/sGround/sGround.yy",
+    "name":"sGround_1",
+    "path":"sprites/sGround_1/sGround_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

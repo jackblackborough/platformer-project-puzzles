@@ -20,7 +20,7 @@ playerDashTimer = 0;
 playerDashTimerMax = 12;
 playerDashSpeedMultiplier = 12;
 playerDashCooldownTimer = 0;
-playerDashCooldownTimerMax = 120;
+playerDashCooldownTimerMax = 30;
 
 // Player sliding
 playerIsSliding = false;

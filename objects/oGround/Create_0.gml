@@ -2,4 +2,4 @@
 
 // sprite = asset (The sprite to use for the asset)
 
-sprite_index = sprite;
+sprite_index = sGround_1;
