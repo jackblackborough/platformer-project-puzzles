@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Object40",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Object47",
+  "eventList":[],
   "managed":true,
-  "name":"Object40",
+  "name":"Object47",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/MyGame/Player.yy",
+    "name":"gm-platformer",
+    "path":"gm-platformer.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite34",
-    "path":"sprites/Sprite34/Sprite34.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

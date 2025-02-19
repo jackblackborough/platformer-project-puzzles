@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Player",
-    "path":"folders/MyGame/Player.yy",
+    "name":"gm-platformer",
+    "path":"gm-platformer.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

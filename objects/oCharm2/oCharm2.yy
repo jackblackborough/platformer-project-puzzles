@@ -6,8 +6,8 @@
   "name":"oCharm2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/MyGame/Player.yy",
+    "name":"gm-platformer",
+    "path":"gm-platformer.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
