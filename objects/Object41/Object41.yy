@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oboss",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Object41",
+  "eventList":[],
   "managed":true,
-  "name":"oboss",
+  "name":"Object41",
   "overriddenProperties":[],
   "parent":{
     "name":"Player",
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sBoss",
-    "path":"sprites/sBoss/sBoss.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
