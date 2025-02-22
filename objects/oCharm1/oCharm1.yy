@@ -6,8 +6,8 @@
   "name":"oCharm1",
   "overriddenProperties":[],
   "parent":{
-    "name":"gm-platformer",
-    "path":"gm-platformer.yyp",
+    "name":"inventory",
+    "path":"folders/inventory.yy",
   },
   "parentObjectId":null,
   "persistent":false,

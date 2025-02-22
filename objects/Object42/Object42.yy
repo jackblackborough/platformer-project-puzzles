@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"Object42",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Object42",
   "overriddenProperties":[],
   "parent":{
-    "name":"gm-platformer",
-    "path":"gm-platformer.yyp",
+    "name":"inventory",
+    "path":"folders/inventory.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"SloadingScreen",
+    "path":"sprites/SloadingScreen/SloadingScreen.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

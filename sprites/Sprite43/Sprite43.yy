@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"gm-platformer",
-    "path":"gm-platformer.yyp",
+    "name":"inventory",
+    "path":"folders/inventory.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

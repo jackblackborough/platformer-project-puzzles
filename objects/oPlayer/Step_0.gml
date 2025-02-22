@@ -485,3 +485,20 @@ if (playerHealth <= 0)
 	sprite_index = playerSpriteDeath;	
 	mask_index = playerSpriteDeath;	
 }
+if keyboard_check_pressed(ord("M"))
+{
+    instance_create_depth(oPlayer.x , oPlayer.y ,99, Object42 )	
+}
+if keyboard_check_pressed(ord("M"))&instance_exists(Object42)
+{
+    instance_destroy(Object42)	
+}
+if place_meeting(x, y, oBench)&&keyboard_check_pressed(ord("S"))
+{
+    sprite_index = sPlayerBench	
+	
+	if keyboard_check_pressed(ord("S"))&&sprite_index = sPlayerBench
+	{
+	      sprite_index = sPlayerIdle	
+	}
+}

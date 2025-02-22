@@ -6,10 +6,13 @@
   "name":"Object45",
   "overriddenProperties":[],
   "parent":{
-    "name":"gm-platformer",
-    "path":"gm-platformer.yyp",
+    "name":"inventory",
+    "path":"folders/inventory.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Object43",
+    "path":"objects/Object43/Object43.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite43",
+    "path":"sprites/Sprite43/Sprite43.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
