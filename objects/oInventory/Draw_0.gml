@@ -17,8 +17,8 @@ draw_sprite_stretched
 			var xx = x + ( i mod row_length)* 36 + 2;
 			 var yy = y + ( i div row_length)* 36 + 2;
 			 draw_sprite(sSlot, 0, xx, yy)
-			 if (inventory[i] != -1)
-			 {
+			if (inventory[i] != -1)
+			{
 				draw_sprite(sCharms, inventory[i],xx,yy) 
 			 } 
 			 
