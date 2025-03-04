@@ -2,10 +2,12 @@
 // You can write your code in this editor
 if keyboard_check_pressed(ord("I"))
 {
-     instance_create_depth(oPlayer.x, oPlayer.y, -1000000000, oInventory)	
+	show_debug_message("Am I being called");
+    instance_create_depth(oPlayer.x, oPlayer.y, -1000000000, oInventory)
 }
 
-if keyboard_check_pressed(ord("I"))&&instance_exists(oInventory)
+if ( instance_exists(oInventory) && keyboard_check_pressed(ord("I")))
 {
-     instance_destroy( oInventory)	
+	show_debug_message("Am I (delete) being called");
+    instance_destroy( oInventory)	
 }

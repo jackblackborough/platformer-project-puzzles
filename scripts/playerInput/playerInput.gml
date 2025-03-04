@@ -34,5 +34,17 @@ function getPlayerInput(_process = true)
 			gamepad_button_check_pressed(0, gp_face1);
 		
 		inputJumpKeyPressed = clamp(inputJumpKeyPressed, 0, 1);	
+		
+		if (keyboard_check_pressed(ord("I")))
+		{
+			show_debug_message("Am I being called");
+		    instance_create_depth(oPlayer.x, oPlayer.y, -1000000000, oInventory)
+		}
+
+		if (keyboard_check_pressed(ord("M")))
+		{
+			show_debug_message("Am I (delete) being called");
+		    instance_destroy( oInventory)	
+		}
 	}
 }
